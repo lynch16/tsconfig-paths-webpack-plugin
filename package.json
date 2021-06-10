@@ -41,7 +41,6 @@
     "postversion": "git push --tags && yarn publish --new-version $npm_package_version && git push && echo \"Successfully released version $npm_package_version!\""
   },
   "lint-staged": {
-    "*.{ts,tsx}": "tslint",
     "*.{ts,tsx,json,css}": "prettier --write"
   }
 }
